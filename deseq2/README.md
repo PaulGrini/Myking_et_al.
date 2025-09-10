@@ -1,0 +1,2 @@
+# Differential gene expression analysis using DESeq2  
+Both R scripts takes mapped reads (ReadsPerGene.out.tab from STAR mapping). [DESeq2_example_atxal_vs_atxaa.R](DESeq2_example_atxal_vs_atxaa.R) is an example script of how reads of orthologous genes were merged within hybrid samples, and running DESeq2. [PCA.R](PCA.R) runs DESeq2 on all samples and creates plots for principal component analysis.
